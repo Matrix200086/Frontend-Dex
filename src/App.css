@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+:root {
+  --White: #ffffff;
+  --Black: #000000;
+  --Accent: #26e1be;
+  --Gray: #b3cdd3;
+  --Darkest: #000911;
+  --DarkestSecondary: #03151e;
+  --Lightest: #6a96a0;
+  --LightestSecondary: #14343f;
+  --DappSupportText: #22505c;
+  --SpdGreen: #0a2230;
+  --SpdPink: #d991c6;
+  --SpdBlue: #476fbe;
+  --SpdSkyBlue: #84b1e5;
+  --SpdYellow: #fcff6f;
+  --SpdRed: #fc4646;
+  --SpdLightRed: #be4747;
+  --SpdPurple: #9847be;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a,
+button,
+input,
+input::placeholder {
+  font-family: "Inter", sans-serif !important;
+}
+html {
+  overflow-x: hidden;
+}
+body {
+  margin: 0;
+  padding: 0 0;
+  font-size: 1rem;
+  font-family: "Inter", sans-serif !important;
+  overflow-x: hidden;
+  position: relative;
+  height: auto !important;
+}
